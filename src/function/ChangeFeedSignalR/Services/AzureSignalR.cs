@@ -95,7 +95,7 @@ namespace ChangeFeedSignalR
 
         public string GetClientHubUrl(string hubName)
         {
-            return $"{endpoint}:5001/client/?hub={hubName}";
+            return $"{endpoint}/client/?hub={hubName}";
         }
 
         public string GenerateAccessToken(string hubName)
